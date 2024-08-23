@@ -66,7 +66,7 @@ function adicionarItem(evento) {
     containerBotoes.appendChild(botaoRemover);
 
     const botaoEditar = document.createElement("button");
-    botaoEditar.classList.add("item-lista-button")
+    botaoEditar.classList.add("item-lista-button");
 
     const imagemEditar = document.createElement("img");
     imagemEditar.src = "img/edit.svg";
@@ -84,5 +84,5 @@ function adicionarItem(evento) {
 
     itemDaLista.appendChild(containerItemLista);
     itemDaLista.appendChild(itemData);
-    listaDeCompras.appendChild(itemDaLista)
+    listaDeCompras.appendChild(itemDaLista);
 }
